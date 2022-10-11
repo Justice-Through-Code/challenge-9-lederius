@@ -8,7 +8,7 @@
 def validate_user_input():
     num = input('Please enter a number')
     try:
-        return(int(num))
+        return int(num)
     except ValueError:
         print('You did not enter a valid number, please try again')
         return validate_user_input()
